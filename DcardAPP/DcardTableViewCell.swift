@@ -1,0 +1,36 @@
+//
+//  DcardTableViewCell.swift
+//  DcardAPP
+//
+//  Created by 陳秉軒 on 2022/4/28.
+//
+
+import UIKit
+
+class DcardTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var genderImage: UIImageView!
+    @IBOutlet weak var postImage: UIImageView!
+    @IBOutlet weak var likeCountImage: UIImageView!
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var excerptLabel: UILabel!
+    
+    @IBOutlet weak var forumNameLabel: UILabel!
+    @IBOutlet weak var schoolLabel: UILabel!
+    
+    @IBOutlet weak var likeCountLabel: UILabel!
+    @IBOutlet weak var commentCountLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}

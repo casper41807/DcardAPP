@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		220FB0752819890C0021AB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB0742819890C0021AB97 /* AppDelegate.swift */; };
 		220FB0772819890C0021AB97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB0762819890C0021AB97 /* SceneDelegate.swift */; };
-		220FB0792819890C0021AB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB0782819890C0021AB97 /* ViewController.swift */; };
 		220FB07C2819890C0021AB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220FB07A2819890C0021AB97 /* Main.storyboard */; };
 		220FB07E2819890D0021AB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220FB07D2819890D0021AB97 /* Assets.xcassets */; };
 		220FB0812819890D0021AB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220FB07F2819890D0021AB97 /* LaunchScreen.storyboard */; };
+		220FB089281989A10021AB97 /* DcardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB088281989A10021AB97 /* DcardTableViewController.swift */; };
+		220FB08B28198B7A0021AB97 /* DcardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB08A28198B7A0021AB97 /* DcardResponse.swift */; };
+		220FB08D281A58CD0021AB97 /* DcardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB08C281A58CD0021AB97 /* DcardTableViewCell.swift */; };
+		220FB094281A92300021AB97 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 220FB093281A92300021AB97 /* Kingfisher */; };
+		220FB098281BA74B0021AB97 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB097281BA74B0021AB97 /* DetailTableViewCell.swift */; };
+		220FB09A281BD65C0021AB97 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB099281BD65C0021AB97 /* DetailTableViewController.swift */; };
+		220FB09E281D43B90021AB97 /* headerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB09D281D43B90021AB97 /* headerView.swift */; };
+		220FB0A1281E99B30021AB97 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 220FB0A0281E99B30021AB97 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		220FB0712819890C0021AB97 /* DcardAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DcardAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		220FB0742819890C0021AB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		220FB0762819890C0021AB97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		220FB0782819890C0021AB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		220FB07B2819890C0021AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		220FB07D2819890D0021AB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220FB0802819890D0021AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220FB0822819890D0021AB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220FB088281989A10021AB97 /* DcardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardTableViewController.swift; sourceTree = "<group>"; };
+		220FB08A28198B7A0021AB97 /* DcardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardResponse.swift; sourceTree = "<group>"; };
+		220FB08C281A58CD0021AB97 /* DcardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardTableViewCell.swift; sourceTree = "<group>"; };
+		220FB097281BA74B0021AB97 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		220FB099281BD65C0021AB97 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		220FB09D281D43B90021AB97 /* headerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220FB094281A92300021AB97 /* Kingfisher in Frameworks */,
+				220FB0A1281E99B30021AB97 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +72,13 @@
 			children = (
 				220FB0742819890C0021AB97 /* AppDelegate.swift */,
 				220FB0762819890C0021AB97 /* SceneDelegate.swift */,
-				220FB0782819890C0021AB97 /* ViewController.swift */,
 				220FB07A2819890C0021AB97 /* Main.storyboard */,
+				220FB088281989A10021AB97 /* DcardTableViewController.swift */,
+				220FB08C281A58CD0021AB97 /* DcardTableViewCell.swift */,
+				220FB08A28198B7A0021AB97 /* DcardResponse.swift */,
+				220FB09D281D43B90021AB97 /* headerView.swift */,
+				220FB099281BD65C0021AB97 /* DetailTableViewController.swift */,
+				220FB097281BA74B0021AB97 /* DetailTableViewCell.swift */,
 				220FB07D2819890D0021AB97 /* Assets.xcassets */,
 				220FB07F2819890D0021AB97 /* LaunchScreen.storyboard */,
 				220FB0822819890D0021AB97 /* Info.plist */,
@@ -83,6 +102,10 @@
 			dependencies = (
 			);
 			name = DcardAPP;
+			packageProductDependencies = (
+				220FB093281A92300021AB97 /* Kingfisher */,
+				220FB0A0281E99B30021AB97 /* Alamofire */,
+			);
 			productName = DcardAPP;
 			productReference = 220FB0712819890C0021AB97 /* DcardAPP.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,10 @@
 				Base,
 			);
 			mainGroup = 220FB0682819890C0021AB97;
+			packageReferences = (
+				220FB092281A92300021AB97 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				220FB09F281E99B30021AB97 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 220FB0722819890C0021AB97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220FB0792819890C0021AB97 /* ViewController.swift in Sources */,
+				220FB08D281A58CD0021AB97 /* DcardTableViewCell.swift in Sources */,
 				220FB0752819890C0021AB97 /* AppDelegate.swift in Sources */,
+				220FB098281BA74B0021AB97 /* DetailTableViewCell.swift in Sources */,
+				220FB089281989A10021AB97 /* DcardTableViewController.swift in Sources */,
+				220FB09A281BD65C0021AB97 /* DetailTableViewController.swift in Sources */,
 				220FB0772819890C0021AB97 /* SceneDelegate.swift in Sources */,
+				220FB08B28198B7A0021AB97 /* DcardResponse.swift in Sources */,
+				220FB09E281D43B90021AB97 /* headerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,6 +390,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		220FB092281A92300021AB97 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		220FB09F281E99B30021AB97 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		220FB093281A92300021AB97 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 220FB092281A92300021AB97 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		220FB0A0281E99B30021AB97 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 220FB09F281E99B30021AB97 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 220FB0692819890C0021AB97 /* Project object */;
 }
